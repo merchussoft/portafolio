@@ -1,6 +1,6 @@
 <script setup>
     import BaseAbout from '@/components/sections/BaseAbout.vue';
-    import BaseAwards from '@/components/sections/BaseAwards.vue';
+    //import BaseAwards from '@/components/sections/BaseAwards.vue';
     import BaseEducation from '@/components/sections/BaseEducation.vue';
     import BaseExperience from '@/components/sections/BaseExperience.vue';
     import BaseInterests from '@/components/sections/BaseInterests.vue';
@@ -19,6 +19,6 @@
             <hr class="m-0" />
         <BaseInterests />
             <hr class="m-0" />
-        <BaseAwards />
+       <!-- <BaseAwards /> -->
     </div>
 </template>

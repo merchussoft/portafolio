@@ -2,61 +2,58 @@
   <section class="flex items-center px-4 py-20 h-screen max-w-[75rem] mx-auto" id="experience">
     <div class="w-full">
       <!-- Título -->
-      <h2 class="mb-12 text-4xl font-extrabold uppercase text-[#b5b5b5]">Experience</h2>
+      <h2 class="mb-12 text-4xl font-extrabold uppercase text-[#b5b5b5]">Experiencia</h2>
 
       <!-- Item 1 -->
       <div class="flex flex-col md:flex-row justify-between mb-10">
         <div class="flex-grow pr-6">
-          <h3 class="text-xl font-extrabold uppercase mb-1 text-title">Senior Web Developer</h3>
+          <h3 class="text-xl font-extrabold uppercase mb-1 text-title">Desarrollador web Junior</h3>
           <div class="uppercase font-saira font-medium text-lg text-semititle mb-3">
-            INTELITEC SOLUTIONS
+            KIJHO TECHNOLOGIES
           </div>
           <p class="text-gray-props leading-relaxed">
-            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward,
-            a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
-            User generated content in real-time will have multiple touchpoints for offshoring.
+            * pacticipar activamente en la ejecución i implementación de retos de desarrollo como IONIC, ANGULAR, PHP.
+          </p>
+          <p class="text-gray-props leading-relaxed">
+            * capacitacion e implementacion de sistema de pruebas automatizadas en java con selenium y cucumber.
+          </p>
+          <p class="text-gray-props leading-relaxed">
+            * colaboracion en proyectos de symfony tomando capacitacion y tambien en la implementación de la metodologia Scrum
           </p>
         </div>
         <div class="flex-shrink-0 text-right">
-          <span class="text-primary font-medium text-dates">March 2013 - Present</span>
+          <span class="text-primary font-medium text-dates">2017 - 2018</span>
         </div>
       </div>
 
       <!-- Item 2 -->
       <div class="flex flex-col md:flex-row justify-between mb-10">
         <div class="flex-grow pr-6">
-          <h3 class="text-xl font-extrabold uppercase mb-1 text-title">Web Developer</h3>
+          <h3 class="text-xl font-extrabold uppercase mb-1 text-title">Desarrollador Fullstack Mid-Level</h3>
           <div class="uppercase font-saira font-medium text-lg text-semititle mb-3">
-            INTELITEC SOLUTIONS
+            PROYECTS & SYSTEMS LIMITADA
           </div>
           <p class="text-gray-props leading-relaxed">
-            Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital
-            divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will
-            close the loop on focusing solely on the bottom line.
+            * actualizacion de php nativo a POO, actualizando la version de PHP 5.6 a PHP 7.2.
+          </p>
+          <p class="text-gray-props leading-relaxed">
+            * Desarrollo de soluciones para el mejoramiento del código usando la metodologia del CodeReview y aplicando CleanCode.
+          </p>
+          <p class="text-gray-props leading-relaxed">
+            * Lider tecnico de desarrollo dentro del equipo de trabajo buscando siempre mejorar la calidad del codigo.
+          </p>
+          <p class="text-gray-props leading-relaxed">
+            * Manejo de la metodologia Scrum para ser mas agíl y efectivo al momento de las entregas.
+          </p>
+          <p class="text-gray-props leading-relaxed">
+            * Capacitacion y desarrollo de ApiRest con framework como slim en PHP y express en NodeJs
           </p>
         </div>
         <div class="flex-shrink-0 text-right">
-          <span class="text-primary font-medium text-dates">December 2011 - March 2013</span>
+          <span class="text-primary font-medium text-dates">Junio 2018 - Diciembre 2023</span>
         </div>
       </div>
-
-      <!-- Item 3 -->
-      <div class="flex flex-col md:flex-row justify-between">
-        <div class="flex-grow pr-6">
-          <h3 class="text-xl font-extrabold uppercase mb-1 text-title">Junior Web Designer</h3>
-          <div class="uppercase font-saira font-medium text-lg text-semititle mb-3">
-            SHOUT! MEDIA PRODUCTIONS
-          </div>
-          <p class="text-gray-props leading-relaxed">
-            Podcasting operational change management inside of workflows to establish a framework. Taking seamless key
-            performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive
-            on the start-up mentality to derive convergence on cross-platform integration.
-          </p>
-        </div>
-        <div class="flex-shrink-0 text-right">
-          <span class="text-primary font-medium text-dates">July 2010 - December 2011</span>
-        </div>
-      </div>
+      
     </div>
   </section>
 </template>

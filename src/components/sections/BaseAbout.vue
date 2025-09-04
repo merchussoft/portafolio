@@ -5,8 +5,8 @@ import Linkedin from "lucide-vue-next/dist/esm/icons/linkedin";
 import Facebook from "lucide-vue-next/dist/esm/icons/facebook";
 
 const socialLinks = [
-  { icon: Linkedin, url: "https://linkedin.com" },
-  { icon: Github, url: "https://github.com" },
+  { icon: Linkedin, url: "https://www.linkedin.com/in/daniel-merchan-565a56158" },
+  { icon: Github, url: "https://github.com/merchussoft" },
   { icon: Twitter, url: "https://twitter.com" },
   { icon: Facebook, url: "https://facebook.com" },
 ];
@@ -24,8 +24,8 @@ const socialLinks = [
       </h1>
 
       <!-- Dirección y contacto -->
-      <div class="uppercase font-medium mb-6 text-[#f4f5ff] text-sm">
-        Armenia · Quindío · +57 (317) 363 4779 ·
+      <div class="uppercase font-medium mb-6 text-[#fff] text-sm">
+        +57 (317) 363 4779 -
         <a
           href="mailto:merchandaniel1985@outlook.com"
           class="text-[#c6c6c6] hover:underline"
@@ -35,14 +35,8 @@ const socialLinks = [
       </div>
 
       <!-- Descripción -->
-      <p class="text-lg font-light mb-8 text-[#f4f5ff] max-w-3xl">
-        Desarrollador backend con PHP con 5 años de experiencia en el
-        desarrollo de aplicaciones y servicios web, especializado en PHP
-        nativo, Node.js y base de datos MySQL. Actualmente ampliando
-        conocimientos en servidores en la nube, React, Python, con experiencia
-        en Git, Linux a nivel intermedio y Docker básico. Enfocado en la
-        optimización de código y colaboración en equipos ágiles Scrum para
-        proyectos Backend.
+      <p class="text-lg font-light mb-8 text-[#f4f5ff] max-w-3xl text-justify leading-relaxed">
+        Enfocado en la optimización de código, escalabilidad y buenas prácticas, con experiencia trabajando bajo metodologías ágiles (Scrum) y fomentando la colaboración en equipos multidisciplinarios. Apasionado por el backend development, sin dejar de lado la exploración de tecnologías fullstack que potencien el valor de los proyectos.
       </p>
 
       <!-- Íconos sociales -->

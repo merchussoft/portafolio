@@ -2,12 +2,12 @@
   <section id="skills" class="flex items-center px-4 py-20 h-screen max-w-[75rem] mx-auto">
     <div>
       <!-- Título -->
-      <h2 class="text-3xl font-bold mb-8 text-[#b5b5b5]">Skills</h2>
+      <h2 class="text-3xl font-bold mb-8 text-[#b5b5b5]">Habilidades</h2>
 
       <!-- Programming Languages & Tools -->
       <div class="mb-6">
         <h3 class="text-lg font-semibold mb-3 text-white">
-          Programming Languages &amp; Tools
+          Lenguajes y herramientas de programación
         </h3>
         <div class="flex flex-wrap gap-6 text-white text-4xl">
           <!-- Iteración de íconos -->
@@ -36,21 +36,22 @@ const icons = [
   "vscode-icons:file-type-html",
   "vscode-icons:file-type-css",
   "logos:javascript",
-  "logos:angular-icon",
   "logos:react",
+  "logos:vue",
   "logos:nodejs-icon",
-  "logos:sass",
-  "logos:less",
-  "logos:wordpress-icon",
-  "logos:gulp",
-  "logos:grunt",
   "logos:npm-icon",
+  "logos:docker-icon",   // Docker
+  "logos:php",           // PHP
+  "logos:mysql",         // MySQL
+  "logos:linux-tux",      // Linux
+  "logos:mongodb-icon",   // MongoDB
+  "logos:postgresql"      // PostgreSQL
 ];
 
 const workflow = [
-  "Mobile-First, Responsive Design",
-  "Cross Browser Testing & Debugging",
-  "Cross Functional Teams",
-  "Agile Development & Scrum",
+  "Docker a nivel basico.",
+  "Capacitacion en react-native, react, vue.js.",
+  "Trabajo en equipo.",
+  "Desarrollo ágil y Scrum",
 ];
 </script>

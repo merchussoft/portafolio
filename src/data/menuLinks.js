@@ -3,6 +3,6 @@ export const menuLinks = [
   { name: "Experiencia", href: "#experience", id: "experience" },
   { name: "Educación", href: "#education", id: "education" },
   { name: "Habilidades", href: "#skills", id: "skills" },
-  { name: "Interests", href: "#interests", id: "interests" },
-  { name: "Awards", href: "#awards", id: "awards" },
+  { name: "Intereses", href: "#interests", id: "interests" },
+  //{ name: "Awards", href: "#awards", id: "awards" },
 ];
