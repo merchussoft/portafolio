@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.text-gray-props {
+    color: #d3d4d6
+}
+
+.text-title {
+    color: #6549a1;
+}
+
+.text-dates {
+    color: #8a3942;
+}
+
+.text-semititle {
+    color: #8c8c8c;
+}
