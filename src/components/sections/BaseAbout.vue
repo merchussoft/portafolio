@@ -15,7 +15,7 @@ const socialLinks = [
 <template>
   <section
     id="about"
-    class="flex items-center px-6 py-24 h-screen max-w-[75rem] mx-auto bg-[#0a0a0a]"
+    class="flex items-center px-6 py-24 h-screen max-w-[75rem] mx-auto"
   >
     <div class="w-full">
       <!-- Nombre -->

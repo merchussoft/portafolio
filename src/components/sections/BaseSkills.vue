@@ -1,7 +1,7 @@
 <template>
   <section
     id="skills"
-    class="flex flex-col justify-center px-6 py-24 h-screen max-w-[75rem] mx-auto bg-[#0a0a0a]"
+    class="flex flex-col justify-center px-6 py-24 h-screen max-w-[75rem] mx-auto"
   >
     <div>
       <!-- Título -->
