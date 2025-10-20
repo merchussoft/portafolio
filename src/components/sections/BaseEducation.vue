@@ -1,66 +1,33 @@
-<!-- EducationSection.vue -->
 <template>
-  <section id="education" class="flex items-center px-4 py-20 h-screen max-w-[75rem] mx-auto">
+  <section id="education" class="flex flex-col justify-center px-6 py-20 min-h-screen max-w-[75rem] mx-auto">
     <div>
-      <h2 class="text-3xl font-bold mb-8 text-[#b5b5b5]">Educación</h2>
+      <h2 class="text-4xl font-bold mb-12 text-[#e6e6e6] tracking-wide">Educación</h2>
 
-      <!-- Item 1 -->
-      <div class="flex flex-col md:flex-row justify-between mb-8">
+      <div
+        v-for="(item, index) in education"
+        :key="index"
+        class="flex flex-col md:flex-row justify-between mb-10 border-b border-gray-700/20 pb-5 group transition-all duration-200"
+      >
         <div class="flex-1">
-          <h3 class="text-xl font-semibold mb-1 text-semititle">INSTITUCION A DISTANCIA EDUARDO CABALLERO CALDERON</h3>
-          <div class="text-lg text-gray-600 mb-1 text-gray-props">Bachiller académico</div>
+          <h3 class="text-xl font-semibold text-white group-hover:text-[#00df9a] transition-colors">
+            {{ item.institution }}
+          </h3>
+          <p class="text-lg text-gray-400 mt-1">{{ item.title }}</p>
         </div>
-        <div class="mt-2 md:mt-0 md:ml-6 text-dates font-medium">
-          2006
+        <div class="mt-3 md:mt-0 text-gray-500 flex items-center gap-2 text-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#00df9a]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2
+              2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          {{ item.date }}
         </div>
       </div>
-
-      <!-- Item 2 -->
-      <div class="flex flex-col md:flex-row justify-between mb-8">
-        <div class="flex-1">
-          <h3 class="text-xl font-semibold mb-1 text-semititle">SENA</h3>
-          <div class="text-lg text-gray-600 mb-1 text-gray-props">Técnico en programacion de Software</div>
-        </div>
-        <div class="mt-2 md:mt-0 md:ml-6 text-dates font-medium">
-          2016 - 2017 
-        </div>
-      </div>
-
-      <div class="flex flex-col md:flex-row justify-between mb-8">
-        <div class="flex-1">
-          <h3 class="text-xl font-semibold mb-1 text-semititle">SENA</h3>
-          <div class="text-lg text-gray-600 mb-1 text-gray-props">Diseño y administración de sitios web</div>
-        </div>
-        <div class="mt-2 md:mt-0 md:ml-6 text-dates font-medium">
-          2018 
-        </div>
-      </div>
-
-      <div class="flex flex-col md:flex-row justify-between mb-8">
-        <div class="flex-1">
-          <h3 class="text-xl font-semibold mb-1 text-semititle">SENA</h3>
-          <div class="text-lg text-gray-600 mb-1 text-gray-props">Aplicacion del marco de trabajo SCRUM para proyectos de desarrollo de software</div>
-        </div>
-        <div class="mt-2 md:mt-0 md:ml-6 text-dates font-medium">
-          2018 
-        </div>
-      </div>
-
-      <div class="flex flex-col md:flex-row justify-between mb-8">
-        <div class="flex-1">
-          <h3 class="text-xl font-semibold mb-1 text-semititle">SENA</h3>
-          <div class="text-lg text-gray-600 mb-1 text-gray-props">diseño páginas web usando php y mysql</div>
-        </div>
-        <div class="mt-2 md:mt-0 md:ml-6 text-dates font-medium">
-          2016 
-        </div>
-      </div>
-
-
     </div>
   </section>
 </template>
 
 <script setup>
-// no necesitas lógica aquí, es estático
+  import { education } from '@/data/dataEducation';
+
 </script>

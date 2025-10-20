@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <div id="page-top" class="md:ml-64 pt-10 bg-[#232122]">
+    <div id="page-top" class="md:ml-64 pt-10">
         <BaseAbout />
             <hr class="m-0" />
         <BaseExperience />
